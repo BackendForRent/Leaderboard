@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Score
+
+# Model Form Field configuration
+form: $/goosy/leaderboard/models/score/fields.yaml
+
+# Model Class name
+modelClass: Goosy\Leaderboard\Models\Score
+
+# Default redirect location
+defaultRedirect: goosy/leaderboard/scores
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: goosy/leaderboard/scores/update/:id
+    redirectClose: goosy/leaderboard/scores
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: goosy/leaderboard/scores
+    redirectClose: goosy/leaderboard/scores
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

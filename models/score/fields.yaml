@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    score:
+        label: SCORE
+        type: number
+    game:
+        label: LOL
+        type: relation    

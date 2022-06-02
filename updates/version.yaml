@@ -1,0 +1,5 @@
+1.0.1: First version of Leaderboard
+1.0.2:
+  - Create Score and Game model
+  - create_games_table.php
+  - create_scores_table.php
